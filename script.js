@@ -6,7 +6,7 @@ btn.addEventListener("click", e=> {
   if (check == 0) {
     btn.innerHTML = "Unfollow";
     para.innerHTML = "Thanks for following";
-    btn.style.backgroundColor = "black";
+    btn.style.backgroundColor = "rgb(48,48,48)";
 
     check = 1;
   } else {
